@@ -15,6 +15,7 @@ REQPKG="autoconf automake build-essential debhelper gettext subversion mercurial
 	libcdio-dev libvcdinfo-dev \
 	libavcodec-dev libpostproc-dev libnl2-dev \
 	python-setuptools \
+	libtool-bin \
 	"
 
 for p in $REQPKG; do
